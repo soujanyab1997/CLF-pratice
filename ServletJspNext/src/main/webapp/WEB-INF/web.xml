@@ -1,0 +1,32 @@
+
+	<web-app id="WebApp_ID">
+		<display-name>ServletJspNext</display-name>
+		<servlet>
+			<servlet-name>SearchBook</servlet-name>
+			<display-name>SearchBook</display-name>
+			<description></description>
+			<servlet-class>com.capgemini.controller.SearchBook</servlet-class>
+		</servlet>
+		<servlet>
+			<servlet-name>UpdateBook</servlet-name>
+			<display-name>UpdateBook</display-name>
+			<description></description>
+			<servlet-class>com.capgemini.controller.UpdateBook</servlet-class>
+		</servlet>
+		<servlet-mapping>
+			<servlet-name>SearchBook</servlet-name>
+			<url-pattern>/SearchBook</url-pattern>
+		</servlet-mapping>
+		<servlet-mapping>
+			<servlet-name>UpdateBook</servlet-name>
+			<url-pattern>/UpdateBook</url-pattern>
+		</servlet-mapping>
+		<welcome-file-list>
+			<welcome-file>index.html</welcome-file>
+			<welcome-file>index.htm</welcome-file>
+			<welcome-file>index.jsp</welcome-file>
+			<welcome-file>default.html</welcome-file>
+			<welcome-file>default.htm</welcome-file>
+			<welcome-file>default.jsp</welcome-file>
+		</welcome-file-list>
+	</web-app>
